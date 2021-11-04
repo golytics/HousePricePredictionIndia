@@ -36,7 +36,7 @@ def get_img_with_href(local_img_path, target_url):
 
 # preparing the layout for the top section of the app
 # dividing the layout vertically (dividing the first row)
-row1_1, row1_2, row1_3 = st.columns((1, 4, 5))
+row1_1, row1_2, row1_3 = st.columns((1, 5, 4))
 
 # first row first column
 with row1_1:
@@ -45,8 +45,8 @@ with row1_1:
 
 with row1_2:
     # st.image('logo.png')
-    st.title("Predicting House Prices in Bangalore, India")
-    st.markdown("<h2>A POC for a Real Estate Client</h2>", unsafe_allow_html=True)
+    st.title("Predicting House Prices in Bangalore, India Using Artificial Intelligence")
+    st.markdown("<h2>A Machine Learning POC for a Real Estate Client</h2>", unsafe_allow_html=True)
 
 # first row second column
 with row1_3:
@@ -181,34 +181,34 @@ with open("style.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 
-footer="""<style>
-a:link , a:visited{
-color: blue;
-background-color: transparent;
-text-decoration: underline;
-}
-
-a:hover,  a:active {
-color: red;
-background-color: transparent;
-text-decoration: underline;
-}
-
-.footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: white;
-color: black;
-text-align: center;
-}
-</style>
-<div class="footer">
-<p>&copy; <a href="https://golytics.github.io/" target="_blank">GoLytics</a><br>Developed By: <a href="https://golytics.github.io/" target="_blank">Dr. Mohamed Gabr</a></p>
-</div>
-"""
-st.markdown(footer,unsafe_allow_html=True)
+# footer="""<style>
+# a:link , a:visited{
+# color: blue;
+# background-color: transparent;
+# text-decoration: underline;
+# }
+#
+# a:hover,  a:active {
+# color: red;
+# background-color: transparent;
+# text-decoration: underline;
+# }
+#
+# .footer {
+# position: fixed;
+# left: 0;
+# bottom: 0;
+# width: 100%;
+# background-color: white;
+# color: black;
+# text-align: center;
+# }
+# </style>
+# <div class="footer">
+# <p>&copy; <a href="https://golytics.github.io/" target="_blank">GoLytics</a><br>Developed By: <a href="https://golytics.github.io/" target="_blank">Dr. Mohamed Gabr</a></p>
+# </div>
+# """
+# st.markdown(footer,unsafe_allow_html=True)
 
 
 
