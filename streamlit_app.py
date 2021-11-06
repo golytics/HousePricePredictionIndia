@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-#source: https://pypi.org/project/streamlit-analytics/
+#source : https://pypi.org/project/streamlit-analytics/
 import streamlit_analytics
 
 # We use streamlit_analytics to track the site like in Google Analytics
