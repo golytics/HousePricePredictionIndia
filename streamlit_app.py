@@ -4,10 +4,10 @@ import pickle
 import streamlit as st
 
 #source : https://pypi.org/project/streamlit-analytics/
-import streamlit_analytics
+#import streamlit_analytics
 
 # We use streamlit_analytics to track the site like in Google Analytics
-streamlit_analytics.start_tracking()
+#streamlit_analytics.start_tracking()
 
 # configuring the page and the logo
 st.set_page_config(page_title='Mohamed Gabr - House Price Prediction', page_icon ='logo.png', layout = 'wide', initial_sidebar_state = 'auto')
@@ -212,4 +212,4 @@ st.markdown(footer,unsafe_allow_html=True)
 
 
 
-streamlit_analytics.stop_tracking(unsafe_password="forward1")
+#streamlit_analytics.stop_tracking(unsafe_password="forward1")
