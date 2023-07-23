@@ -60,7 +60,7 @@ with row1_3:
         """)
 
 
-from sklearn.ensemble import RandomForestClassifier
+#from sklearn.ensemble import RandomForestClassifier
 
 st.write("""
         This app predicts the **Prices** of houses in Bangalore
